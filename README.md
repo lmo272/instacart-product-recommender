@@ -5,5 +5,4 @@
 - Lennart
 - Niclas
 
-
-"""ADD MORE STUFF""
+This repository contains the prototype of a product recommender based on data from online grocer *Instacart*. 
