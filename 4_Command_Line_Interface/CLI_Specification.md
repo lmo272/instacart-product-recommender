@@ -1,6 +1,5 @@
 ## Instacart: CLI Specification
 ### Running the recommende from the Command Line:
--
 In order to illustrate in an intuitive way the recommender system we have  developed, we created a lightweight CLI. Note that a user of course does not know, which user cluster they belong so, the usecase serves many illustrative purposes.
 
 To run the recommender system using the CLI, please follow these steps in your terminal:  
