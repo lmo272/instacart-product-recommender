@@ -18,24 +18,24 @@ The goal was to first **identify a business problem** faced by e-commerce comapn
 
 We divided the project in total of 6 parts numbered from `0` to `5`. Additionally, there is a data folder which has to be created following the instructions below. Here you find an overview of the strucure:
 ```bash
-├── 0_Introduction
+├── 0_Introduction                         # containing the business to ML problem part
 │   └── 0_Introduction.ipynb
-├── 1_Exploratory_Data_Analysis
+├── 1_Exploratory_Data_Analysis            # classical EDA based on the six available data sets  
 │   └── 1_exploratory_data_analysis.ipynb
-├── 2_Clustering
+├── 2_Clustering                           # containing the feature engineering, a PCA and the actual clustering alorithm
 │   └── 2_clustering.ipynb
-├── 3_Item2Vec
+├── 3_Item2Vec                             # containing the Item2Vec alogrhitm and the testing of the recommender engine
 │   ├── 3_0_Item2Vec.ipynb
 │   └── 3_1_Recommendation_Testing.ipynb
-├── 4_Command_Line_Interface
+├── 4_Command_Line_Interface               # containting the python file for CLI handling
 │   ├── CLI_Specification.md
 │   └── recommend_me_something.py
-├── 5_Recommender_API
+├── 5_Recommender_API                      # contatining the API
 │   ├── API_Specification.md
 │   ├── engine
 │   │   └── recommender_engine.py
 │   └── recommender_api.py
-├── data
+├── data                                   # data folder with all the requried data files
 │   ├── aisles.csv
 │   ├── departments.csv
 │   ├── order_products__prior.csv
