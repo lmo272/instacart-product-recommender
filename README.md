@@ -11,10 +11,38 @@ The project was part of the 2487-S2 Machine Learning course for the MSc in Busin
 This repository contains the prototype of a product recommender based on data from online grocer [Instacart](https://www.instacart.com/ "Instacart's Homepage")
 
 
-## 🔎 File overview
+## 🔎 Files overview
 
-xxxx
-
+We divided the project in total of 6 parts numbered from `0` to `5`. Additionally, there is a data folder which has to be created following the instructions below. Here you find an overview of the strucure:
+```bash
+├── 0_Introduction
+│   └── 0_Introduction.ipynb
+├── 1_Exploratory_Data_Analysis
+│   └── 1_exploratory_data_analysis.ipynb
+├── 2_Clustering
+│   └── 2_clustering.ipynb
+├── 3_Item2Vec
+│   ├── 3_0_Item2Vec.ipynb
+│   └── 3_1_Recommendation_Testing.ipynb
+├── 4_Command_Line_Interface
+│   ├── CLI_Specification.md
+│   └── recommend_me_something.py
+├── 5_Recommender_API
+│   ├── API_Specification.md
+│   ├── engine
+│   │   └── recommender_engine.py
+│   └── recommender_api.py
+├── data
+│   ├── aisles.csv
+│   ├── departments.csv
+│   ├── order_products__prior.csv
+│   ├── order_products__train.csv
+│   ├── orders.csv
+│   ├── products.csv
+│   └── sample_submission.csv
+├── environment.yml
+└── README.md
+```
 
 ## 💻 Usage
 In order to run the code in the same environment as we did please create a virtual environment running the command `conda env create -f environment.yml`. 
