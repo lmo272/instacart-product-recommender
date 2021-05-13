@@ -8,7 +8,10 @@ The project was part of the 2487-S2 Machine Learning course for the MSc in Busin
 - Lennart Max Oser - 44379
 - Niclas Frederic Sturm - 45914
 
-This repository contains the prototype of a product recommender based on data from online grocer [Instacart](https://www.instacart.com/ "Instacart's Homepage")
+## 💡 About the project
+This repository contains the prototype of a product recommender based on data from online grocer [Instacart](https://www.instacart.com/ "Instacart's Homepage"). 
+
+The goal was to first **identify a business problem** faced by e-commerce comapnies such as Instacart, second **explore the avaialble data** to get an understaning of what we can work with and then finally prototype a product recommendation engine based on the products in the basket of a used. In addition to the jupyter notebooks, we also created a **Command Line Interface (CLI)** to play around with our built recommendation engine. On top of that, we also created **an API** to demonstrate how such an engine could be used as a Microservice within a company (i.e. Instacart). 
 
 
 ## 🔎 Files overview
