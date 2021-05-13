@@ -131,6 +131,7 @@ dmypy.json
 # Data
 /data
 *.parquet
+*.zip
 
 # other
 /.vscode
